@@ -13,12 +13,14 @@ angular.module('subscribers').controller('SubscribersController', ['$scope', '$s
 				email: this.email
 			});
 
-			// Redirect after save
+			// Redirect after save - no!
 			subscriber.$save(function(response) {
-				$location.path('subscribers/' + response._id);
+				// $location.path('subscribers/' + response._id);
+				$scope.success = 'Thank you!'; //hard code everything!
 
 				// Clear form fields
-				$scope.name = '';
+				// $scope.name = '';
+				$scope.email = '';
 			}, function(errorResponse) {
 				$scope.error = errorResponse.data.message;
 			});
