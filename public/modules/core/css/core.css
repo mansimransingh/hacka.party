@@ -5,6 +5,10 @@ body {
 .home-container {
 	background-color: white;
 }
+.table-points {
+	font-weight: bold;
+	font-size: 15px;
+}
 .content {
 	margin-top: 50px;
 }
