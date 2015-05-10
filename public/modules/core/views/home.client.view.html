@@ -23,28 +23,6 @@
 			</p>
 		</div>
 
-		<div class="row" data-ng-controller="SubscribersController">
-			<form class="form-horizontal" data-ng-submit="create()" novalidate>
-
-			<div class="form-group">
-				<label class="control-label" for="email">Email</label>
-				<div class="controls">
-					<input type="email" data-ng-model="email" id="email" class="form-control" placeholder="Email" requireclie
-				</div>
-			</div>
-                <div class="form-group">
-                    <input type="submit" class="btn btn-default">
-                </div>
-				<div data-ng-show="error" class="text-danger">
-					<strong data-ng-bind="error"></strong>
-				</div>
-				<div data-ng-show="success" class="text-success">
-                    <strong data-ng-bind="success"></strong>
-                </div>
-			</form>
-		</div>
-
-
 		<div class="row">
 			<p>
 				<button class="btn btn-primary btn-lg" href="/#!" onclick="toggle_visibility('table-container');">Hit me!</button>
@@ -82,7 +60,7 @@
 					</tr>
 					<tr>
 						<td class="col-md-5"><a href="http://en.wikipedia.org/wiki/P_versus_NP_problem">Solve the P vs. NP problem</a></td>
-						<td class="col-md-2 table-points">30</td>
+						<td class="col-md-2 table-points">∞</td>
 						<td class="col-md-5">Down a bottle of tequila</td>
 					</tr>
 				</table>
@@ -102,12 +80,6 @@
 		<div class="col-sm-10 col-sm-offset-1">
 		<div class="col-md-3">
 			<h2>
-				<strong style="color: green">S</strong>core
-			</h2>
-			<p>The aim of the game is to score as many points as possible to beat all the other players. In order to win the HackaParty you not only need to write efficient code, but you also have to optimize your drinking skills!</p>
-		</div>
-		<div class="col-md-3">
-			<h2>
 				<strong style="color: red">C</strong>ode
 			</h2>
 			<p>Solve programming challenges that will give you points relative to it's difficulty! The value of programming challenges will increase overtime, as it will become harder to solve them as you get drunker!</p>
@@ -120,7 +92,13 @@
 		</div>
 		<div class="col-md-3">
 			<h2>
-				<strong style="color: orange">P</strong>arty
+				<strong style="color: green">C</strong>ommit
+			</h2>
+			<p>The aim of the game is to score as many points as possible to beat all the other players. In order to win the HackaParty you not only need to write efficient code, but you also have to optimize your drinking skills!</p>
+		</div>
+		<div class="col-md-3">
+			<h2>
+				<strong style="color: orange">R</strong>epeat
 			</h2>
 			<p>After the HackaParty challenge is over, everyone, especially the winners, will be more than ready to party. And for the adventurous ones - the HackaParty will continue all night!</p>
 		</div>
@@ -137,7 +115,8 @@
 				<img class="img-responsive img col-xs-10 col-xs-offset-1" src="/modules/core/img/hackaparties/hackabeer.png">
 	<div style="clear: both"></div>
 				<h4><a href="https://www.facebook.com/events/1706257332935102/">Alejandro's HackaParty</a></h4>
-				<p>23/05/2015</p>
+				<p>Offline - 23/05/2015</p>
+				<a href="#" class="btn btn-info">Join</a>
 			</div>
 		</div>
 		<div>
@@ -145,12 +124,15 @@
 				<img class="img-responsive img col-xs-10 col-xs-offset-1" src="/modules/core/img/hackaparties/mani.png">
 	<div style="clear: both"></div>
 				<h4><a href="https://www.facebook.com/events/1706257332935102/">Mani's HackaParty</a></h4>
-				<p>23/05/2015</p>
+				<p>Offline - 23/05/2015</p>
+				<a href="#" class="btn btn-info">Join</a>
 			</div>
 		</div>
 		
 	</div>
 	<div style="clear: both"></div>
-	<br>Enjoy &amp; Drink in Moderation,
-	<br><b>The Hack Partners.</b>
+	<div style="text-align: center;">
+		<br>Enjoy &amp; Drink in Moderation,
+		<br><b><a href="http://hackpartners.com">The Hack Partners.</a></b>
+	</div>
 </section>
