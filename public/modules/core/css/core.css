@@ -1,3 +1,10 @@
+body {
+	background: url(/modules/core/img/images/beerinclude.jpg);
+	background-size: 25%;
+}
+.home-container {
+	background-color: white;
+}
 .content {
 	margin-top: 50px;
 }
