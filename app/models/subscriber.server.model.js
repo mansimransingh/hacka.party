@@ -26,10 +26,10 @@ var SubscriberSchema = new Schema({
 		type: Date,
 		default: Date.now
 	},
-//	user: {
-//		type: Schema.ObjectId,
-//		ref: 'User'
-//	}
+	user: {
+		type: Schema.ObjectId,
+		ref: 'User'
+	}
 });
 
 mongoose.model('Subscriber', SubscriberSchema);
