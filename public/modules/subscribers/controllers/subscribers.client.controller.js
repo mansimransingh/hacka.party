@@ -9,7 +9,8 @@ angular.module('subscribers').controller('SubscribersController', ['$scope', '$s
 		$scope.create = function() {
 			// Create new Subscriber object
 			var subscriber = new Subscribers ({
-				name: this.name
+			//	name: this.name
+				email: this.email
 			});
 
 			// Redirect after save
